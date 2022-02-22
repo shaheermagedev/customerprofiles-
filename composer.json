@@ -1,0 +1,33 @@
+{
+    "name": "sh/profile-customerimport",
+    "description": "Customer Import Using Profiles",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Shaheer Ali",
+            "email": "shaheer.magedev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.3.0|~7.4.0",
+        "magento/framework": ">=102.0.0"
+    },
+    "repositories": {
+        "sh/profile-customerimport": {
+            "type": "git",
+            "url": "https://github.com/shaheermagedev/customerprofiles-"
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Sh/CustomerImport"
+            ]
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version":"1.0.0"
+}
